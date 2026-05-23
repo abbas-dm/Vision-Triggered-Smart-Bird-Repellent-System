@@ -70,7 +70,7 @@ The system only activates when birds are detected, helping reduce unnecessary po
 5. Data is published to MQTT topic:
 
 ```text
-bird/detection
+bird/control
 ```
 
 6. ESP32 subscribes to topic
@@ -134,9 +134,9 @@ bird/detection
 - System Architecture Diagram
   ![Architecture](images/System_Arch.png)
 - Raspberry Pi Detection Node
-  ![Detection Node](images/PI_setup.jpg)
+  ![Detection Node](images/PI_setup.jpeg)
 - ESP32 Deterrence Module
-  ![IoT Node](images/esp32_setup.jpg)
+  ![IoT Node](images/esp32_setup.jpeg)
 
 ---
 
